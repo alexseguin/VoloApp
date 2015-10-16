@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+
+    android:background="@drawable/coffeemod"
+    android:backgroundTint="#999966"
+    android:backgroundTintMode="screen">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+
+        android:text="ÊTES VOUS ..."
+        android:id="@+id/textView4"
+
+        android:paddingLeft="40px"
+        android:paddingRight="40px"
+        android:fontFamily="sans-serif-thin"
+        android:textSize="60px"
+        android:textColor="#FFFFFF"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    <Button
+        android:layout_width="315dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="60dp"
+
+        android:text="une organisation"
+        android:id="@+id/organ_signup"
+
+        android:paddingLeft="40px"
+        android:paddingRight="40px"
+        android:background="#FFFFFF"
+        android:fontFamily="sans-serif-thin"
+        android:textSize="60px"
+        android:textColor="#7F7F7F"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+
+        android:text="OU"
+        android:id="@+id/textView3"
+
+        android:paddingLeft="40px"
+        android:paddingRight="40px"
+        android:fontFamily="sans-serif-thin"
+        android:textSize="80px"
+        android:textColor="#FFFFFF"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    <Button
+        android:layout_width="315dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+
+        android:text="un bénévole"
+        android:id="@+id/benev_signup"
+
+        android:paddingLeft="40px"
+        android:paddingRight="40px"
+        android:background="#FFFFFF"
+        android:fontFamily="sans-serif-thin"
+        android:textSize="60px"
+        android:textColor="#7F7F7F"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_gravity="center_horizontal"
+
+        android:text="RETOUR"
+        android:id="@+id/button3"
+
+        android:paddingLeft="40px"
+        android:paddingRight="40px"
+        android:fontFamily="sans-serif-thin"
+        android:textSize="50px"
+        android:textColor="#FFFFFF"
+        android:background="@null"/>
+</LinearLayout>

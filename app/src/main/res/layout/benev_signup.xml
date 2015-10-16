@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/coffeemod"
+
+    android:backgroundTint="#999966"
+    android:backgroundTintMode="screen"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/benevSignupBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/benevSignupHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif-thin"
+
+            android:paddingLeft="40px"
+            android:paddingRight="40px"
+            android:text="QUEL EST VOTRE..."
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#FFFFFF"
+            android:textSize="60px" />
+
+        <TextView
+            android:id="@+id/benevSignupNameLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+
+            android:layout_marginTop="26dp"
+            android:fontFamily="sans-serif-thin"
+
+            android:paddingLeft="40px"
+            android:paddingRight="40px"
+            android:text="PRÉNOM"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#FFFFFF"
+            android:textSize="80px" />
+
+        <TextView
+            android:id="@+id/benevSignupName"
+            android:layout_width="300dp"
+            android:layout_height="80px"
+            android:layout_gravity="center_horizontal"
+
+            android:background="#ffffff"
+            android:editable="true"
+
+            android:ellipsize="start"
+            android:gravity="center"
+            android:textColorHint="#D8D8D8" />
+
+        <TextView
+            android:id="@+id/benevSignupAgeLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="26dp"
+            android:fontFamily="sans-serif-thin"
+            android:paddingLeft="40px"
+            android:paddingRight="40px"
+            android:text="ÂGE"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#FFFFFF"
+            android:textSize="80px" />
+
+        <TextView
+            android:id="@+id/benevSignupAge"
+            android:layout_width="300dp"
+            android:layout_height="80px"
+            android:layout_gravity="center_horizontal"
+            android:background="#ffffff"
+            android:editable="true"
+            android:ellipsize="start"
+            android:gravity="center"
+            android:textColorHint="#D8D8D8" />
+
+        <TextView
+            android:id="@+id/benevSignupCourrielLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="26dp"
+            android:fontFamily="sans-serif-thin"
+            android:paddingLeft="40px"
+            android:paddingRight="40px"
+            android:text="COURRIEL"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#FFFFFF"
+            android:textSize="80px" />
+
+        <TextView
+            android:id="@+id/benevSignupCourriel"
+            android:layout_width="300dp"
+            android:layout_height="80px"
+            android:layout_gravity="center_horizontal"
+            android:background="#ffffff"
+            android:editable="true"
+            android:ellipsize="start"
+            android:gravity="center"
+            android:textColorHint="#D8D8D8" />
+
+        <TextView
+            android:id="@+id/benevSignupVilleLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="26dp"
+            android:fontFamily="sans-serif-thin"
+            android:paddingLeft="40px"
+            android:paddingRight="40px"
+            android:text="VILLE"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#FFFFFF"
+            android:textSize="80px" />
+
+        <TextView
+            android:id="@+id/benevSignupVille"
+            android:layout_width="300dp"
+            android:layout_height="80px"
+            android:layout_gravity="center_horizontal"
+            android:background="#ffffff"
+            android:editable="true"
+            android:ellipsize="start"
+            android:gravity="center"
+            android:textColorHint="#D8D8D8" />
+
+        <TextView
+            android:id="@+id/benevSignupCpLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="26dp"
+            android:fontFamily="sans-serif-thin"
+            android:paddingLeft="40px"
+            android:paddingRight="40px"
+            android:text="CODE POSTAL"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#FFFFFF"
+            android:textSize="80px" />
+
+        <TextView
+            android:id="@+id/benevSignupCp"
+            android:layout_width="300dp"
+            android:layout_height="80px"
+            android:layout_gravity="center_horizontal"
+            android:background="#ffffff"
+            android:editable="true"
+            android:ellipsize="start"
+            android:gravity="center"
+            android:textColorHint="#D8D8D8" />
+
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:stretchColumns="0,1">
+
+            <TableRow
+                android:id="@+id/benevSignupLayoutHelper"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
+
+                <Button
+                    android:id="@+id/benevSignupReturnButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@null"
+
+                    android:fontFamily="sans-serif-thin"
+                    android:paddingLeft="40px"
+                    android:paddingRight="40px"
+                    android:text="RETOUR"
+                    android:textColor="#FFFFFF"
+                    android:textSize="80px" />
+
+                <Button
+                    android:id="@+id/benevSignupConfirmButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|center_horizontal"
+                    android:background="@null"
+
+                    android:fontFamily="sans-serif-thin"
+                    android:paddingLeft="40px"
+                    android:paddingRight="40px"
+                    android:text="CONFIRMER"
+                    android:textColor="#FFFFFF"
+                    android:textSize="80px" />
+            </TableRow>
+        </TableLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/coffeemod"
+
+    android:backgroundTint="#999966"
+    android:backgroundTintMode="screen"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:id="@+id/organSignupBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/organSignupHeaderLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif-thin"
+
+                android:paddingLeft="40px"
+                android:paddingRight="40px"
+                android:text="QUEL EST VOTRE..."
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#FFFFFF"
+                android:textSize="60px" />
+
+            <TextView
+                android:id="@+id/organSignupNameLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="26dp"
+                android:fontFamily="sans-serif-thin"
+                android:gravity="center"
+
+                android:paddingLeft="40px"
+                android:paddingRight="40px"
+                android:text="NOM D&apos;ORGANISME"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#FFFFFF"
+                android:textSize="80px" />
+
+            <TextView
+                android:id="@+id/organSignupName"
+                android:layout_width="300dp"
+                android:layout_height="80px"
+                android:background="#ffffff"
+
+                android:editable="true"
+                android:ellipsize="start"
+
+                android:gravity="center"
+                android:textColorHint="#D8D8D8" />
+
+            <TextView
+                android:id="@+id/organSignupAddressLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="26dp"
+                android:fontFamily="sans-serif-thin"
+                android:paddingLeft="40px"
+                android:paddingRight="40px"
+                android:text="ADRESSE"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#FFFFFF"
+                android:textSize="80px" />
+
+            <TextView
+                android:id="@+id/organSignupAddress"
+                android:layout_width="300dp"
+                android:layout_height="80px"
+                android:layout_gravity="center_horizontal"
+                android:background="#ffffff"
+                android:editable="true"
+                android:ellipsize="start"
+                android:gravity="center"
+                android:textColorHint="#D8D8D8" />
+
+            <TextView
+                android:id="@+id/organSignupCourrielLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="26dp"
+                android:fontFamily="sans-serif-thin"
+                android:paddingLeft="40px"
+                android:paddingRight="40px"
+                android:text="COURRIEL"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#FFFFFF"
+                android:textSize="80px" />
+
+            <TextView
+                android:id="@+id/organSignupCourriel"
+                android:layout_width="300dp"
+                android:layout_height="80px"
+                android:layout_gravity="center_horizontal"
+                android:background="#ffffff"
+                android:editable="true"
+                android:ellipsize="start"
+                android:gravity="center"
+
+                android:textColorHint="#D8D8D8" />
+
+            <TextView
+                android:id="@+id/organSignupVilleLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="26dp"
+                android:fontFamily="sans-serif-thin"
+                android:paddingLeft="40px"
+                android:paddingRight="40px"
+                android:text="VILLE"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#FFFFFF"
+                android:textSize="80px" />
+
+            <TextView
+                android:id="@+id/organSignupVille"
+                android:layout_width="300dp"
+                android:layout_height="80px"
+                android:layout_gravity="center_horizontal"
+                android:background="#ffffff"
+                android:editable="true"
+                android:ellipsize="start"
+                android:gravity="center"
+
+                android:textColorHint="#D8D8D8" />
+
+            <TextView
+                android:id="@+id/organSignupCpLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="26dp"
+                android:fontFamily="sans-serif-thin"
+                android:paddingLeft="40px"
+                android:paddingRight="40px"
+                android:text="CODE POSTAL"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#FFFFFF"
+                android:textSize="80px" />
+
+            <TextView
+                android:id="@+id/organSignupCp"
+                android:layout_width="300dp"
+                android:gravity="center"
+                android:layout_height="80px"
+                android:layout_gravity="center_horizontal"
+                android:background="#ffffff"
+                android:editable="true"
+                android:ellipsize="start"
+
+                android:textColorHint="#D8D8D8" />
+
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:stretchColumns="0,1">
+
+                <TableRow
+                    android:id="@+id/organSignupLayoutHelper"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal">
+
+                    <Button
+                        android:id="@+id/organSignupReturnButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@null"
+
+                        android:fontFamily="sans-serif-thin"
+                        android:paddingLeft="40px"
+                        android:paddingRight="40px"
+                        android:text="RETOUR"
+                        android:textColor="#FFFFFF"
+                        android:textSize="80px" />
+
+                    <Button
+                        android:id="@+id/organSignupConfirmButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|center_horizontal"
+                        android:background="@null"
+
+                        android:fontFamily="sans-serif-thin"
+                        android:paddingLeft="40px"
+                        android:paddingRight="40px"
+                        android:text="CONFIRMER"
+                        android:textColor="#FFFFFF"
+                        android:textSize="80px" />
+                </TableRow>
+            </TableLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
